@@ -1,0 +1,63 @@
+/*--------------------------------------------------
+			brankic-icons
+---------------------------------------------------*/
+.brankic-icons { padding: 0; margin: 0; list-style-type: none; z-index: 999; }
+.brankic-icons li, .widget .brankic-icons li { display: inline-block; height: 100%; padding: 0; margin: 0 5px 5px 0; width:auto;} 
+.brankic-icons li:last-child { margin-right: 0; }
+.brankic-icons li a { width: 37px; height: 37px; font-size:17px; line-height: 37px; font-style: normal; font-weight: normal; speak: none; font-variant: normal; text-transform: none; float: left; text-align: center; }
+.brankic-icons li a { margin: 0; padding: 0; z-index: 2; display: inline-block; }	
+.circle li a { border-radius: 50%; width: 40px; height: 40px; line-height: 40px; }
+.rectangle li a  { border-radius: 2px; }
+.diamond li a { border-radius: 5px; -o-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg); line-height: 34px; margin: 8px 10px 0 0; }
+.diamond li a i { -o-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
+.outlined.diamond li a { line-height: 32px; }
+
+.brankic-icons.default li a { color: #fff; background-color: rgba(0, 0, 0, 0.8); } 
+.brankic-icons.default li a:hover { color: #fff; opacity: 0.6; }
+
+
+.circle.outlined li a { line-height: 35px; } 
+.outlined li a { border-style: solid; border-width: 2px; border-color: currentcolor; color: rgba(0, 0, 0, 0.8); background-color: transparent; line-height: 32px; } 
+.brankic-icons.outlined li a:hover { border-style: solid !important; border-width: 2px !important; }
+.brankic-icons.outlined li a:hover { background-color: rgba(0, 0, 0, 0.8); color: #fff !important; border-color: rgba(0, 0, 0, 0) !important; }
+
+	
+.brankic-icons.transparent li a { background-color: transparent; color: rgba(0, 0, 0, 0.8); }
+.brankic-icons.transparent li a:hover { background-color: transparent; color: rgba(0, 0, 0, 1); }
+
+.brankic-icons.transparent.border li, .brankic-icons.transparent.none li { margin-right: 20px; }
+.brankic-icons.transparent.border li:last-child, .brankic-icons.transparent.none li:last-child { margin-right: 0; }
+.brankic-icons.transparent.border li { border-right: 1px dotted currentcolor; }
+.brankic-icons.transparent.border li:last-child { border-right: none !important; }
+.brankic-icons.transparent.border li a, .brankic-icons.transparent.none li a { width: auto; height: auto; line-height: 17px; padding-right: 20px; }
+.brankic-icons.transparent.border li a:hover, .brankic-icons.transparent.none li a:hover { opacity: 1; }
+.brankic-icons.transparent.border li:last-child, .brankic-icons.transparent.none li:last-child { padding-right: 0; }
+
+.brankic-icons.transparent.full-color-hover li a { background-color: transparent; color: rgba(0, 0, 0, 0.8); }
+.brankic-icons.transparent.full-color-hover li a:hover { color: #fff; background-color: rgba(0, 0, 0, 0.8); opacity: 1; }
+
+
+.brankic-icons.transparent.outlined li a { color: rgba(0, 0, 0, 0.8) !important; background-color: transparent; border-style: solid !important; border-width: 2px!important; border-color: rgba(0, 0, 0, 0); }
+.brankic-icons.transparent.outlined li a:hover { border-color: rgba(0, 0, 0, 0.8) !important; opacity: 1; }
+
+
+.brankic-icons.text li { margin: 0; }
+.brankic-icons.text li a:first-child { margin: 0; }
+.brankic-icons.text li a { width: auto; height: auto; font-family: "Dosis", sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 3px; text-transform:uppercase; text-decoration: none; color: currentcolor !important; background-color: transparent !important; }
+.brankic-icons.text li a { margin-left: 10px; }
+.brankic-icons.text li a::before,
+.brankic-icons.text li a::after { display: inline-block; opacity: 0; -webkit-transition: -webkit-transform 0.3s, opacity 0.2s; -moz-transition: -moz-transform 0.3s, opacity 0.2s; transition: transform 0.3s, opacity 0.2s; }
+.brankic-icons.text li a::before { margin-right: 5px; content: '['; -webkit-transform: translateX(20px); -moz-transform: translateX(20px); transform: translateX(20px); }
+.brankic-icons.text li a::after { margin-left: 5px; content: ']'; -webkit-transform: translateX(-20px); -moz-transform: translateX(-20px); transform: translateX(-20px); }
+.brankic-icons.text li a:hover::before,
+.brankic-icons.text li a:hover::after,
+.brankic-icons.text li a:focus::before,
+.brankic-icons.text li a:focus::after { opacity: 1; -webkit-transform: translateX(0px); -moz-transform: translateX(0px); transform: translateX(0px); }
+.brankic-icons.text li a:hover { background-color: transparent !important; color: currentcolor !important; }
+
+
+.brankic-icons.icon-text li { margin-right: 25px!important; }
+.brankic-icons.icon-text li i { float: left; font-size: 22px; margin-right: 10px; margin-top: 8px; }
+.brankic-icons.icon-text li a { float: left; font-size: 13px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; height: auto; width: auto; text-decoration: none; color: rgba(0, 0, 0, 0.7); }
+.brankic-icons.icon-text li a:hover {  opacity: 0.6; }
+.brankic-icons.icon-text li i.fa-linkedin { margin-top: 6px; }
